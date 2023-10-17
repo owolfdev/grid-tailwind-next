@@ -1,24 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-3 grid-rows-6 h-screen bg-gray-100">
-      <div className="col-span-3 bg-green-200">
-        header - I take up three columns
-      </div>
-
-      <div className="bg-teal-200 row-span-4">
-        content - I take up one column
-      </div>
-      <div className="bg-orange-200 row-span-4">
-        content - I take up one column
-      </div>
-      <div className="bg-yellow-200 row-span-4">
-        content - I take up one column
-      </div>
-      <div className="col-span-3 bg-pink-200 row-span-1">
-        footer - I take up three column
-      </div>
+    <div className="flex flex-col p-24">
+      <Link href="https://grid-tailwind-next.vercel.app/spanning-multiple-rows">
+        <div className="font-bold text-lg">
+          3. Spanning Multiple Columns or Rows
+        </div>
+      </Link>
     </div>
   );
 }
