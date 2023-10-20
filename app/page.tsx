@@ -17,6 +17,9 @@ export default function Home() {
         <Link href="https://grid-tailwind-next.vercel.app/spanning-multiple-rows">
           <div className="">3. Spanning Multiple Columns or Rows</div>
         </Link>
+        <Link href="https://grid-tailwind-next.vercel.app/gap">
+          <div className="">4. Gap between Grid Items</div>
+        </Link>
       </div>
     </>
   );
